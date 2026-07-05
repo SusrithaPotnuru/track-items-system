@@ -1,0 +1,14 @@
+<h2 style="color:#7c3aed;margin:0 0 8px;">Pending Approval Reminder</h2>
+<p style="color:#6b7280;font-size:13px;margin:0 0 24px;">{{DATE}}</p>
+<p style="color:#374151;font-size:15px;line-height:1.6;">
+  There are <strong>{{PENDING_COUNT}} entries</strong> awaiting your approval.
+</p>
+<table width="100%" cellpadding="10" cellspacing="0" style="margin:20px 0;border:1px solid #ddd6fe;border-radius:6px;border-collapse:collapse;">
+  <tr style="background:#ede9fe;">
+    <td style="color:#4c1d95;font-size:13px;font-weight:600;">Employee</td>
+    <td style="color:#4c1d95;font-size:13px;font-weight:600;">Date</td>
+    <td style="color:#4c1d95;font-size:13px;font-weight:600;">Items</td>
+  </tr>
+  {{ENTRY_ROWS}}
+</table>
+<p style="color:#6b7280;font-size:13px;">Please log in to the Timesheet System to review and approve or reject these entries.</p>
